@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lora:700|Merienda+One" rel="stylesheet">
+    <link href="css/bootstrap-3.3.7/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="jquery-3.1.1.js"</script>
+   <script src="css/bootstrap-3.3.7/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="row zv">
+          <div class='bla col-sm-3 mx-auto text-center col-md-3'>
+            <button id="getW">get your local weather</button>
+          </div>
+          <div class="naslov col-sm-6 col-md-6 mx-auto text-center">
+
+            <h3 class="txt text-capitalize">Your local weather wizzard</h3>
+
+          </div>
+          <div class="col-sm-3 col-md-3 text-center">
+            <p id="time"></p>
+            <!-- <p id="info"></p> -->
+          </div>
+        </div>
+        <!-- kraj ovog reda -->
+
+        <div class="row one">
+          <div class='col-md-3 sun text-center opac'>
+          </div>
+
+          <div class="col-md-6 mx-auto text-center">
+            <div class='loader'></div>
+            <h2 class='opac' id='temp'></h2>
+<!-- <div class='loaders'></div> -->
+          </div>
+          <div class="col-md-3 minMax text-center">
+
+          </div>
+        </div>
+        <!-- kraj ovog reda -->
+        <div class="row one animate">
+          <div class='col-md-3'>
+          </div>
+          <div class="ovde col-md-2 mx-auto text-center opac">
+            <h4 id="mesto" class="font-weight-bold"></h4>
+          </div>
+          <div class="ovde col-md-2 mx-auto text-center opac">
+            <h4 id="desc"></h4>
+          </div>
+          <div class="ovde col-md-2 mx-auto text-center opac">
+            <h4 id="nots"></h4>
+          </div>
+          <div class="col-md-3">
+
+          </div>
+        </div>
+
+        <!-- drugi red -->
+        <div class="row one animate">
+          <div class='col-md-3 text-center'>
+          </div>
+          <div class="ovde col-md-2 mx-auto text-center opac">
+            <h4 id="humidity" class="font-weight-bold"></h4>
+          </div>
+          <div class="ovde col-md-2 mx-auto text-center opac">
+            <h4 id="pressure"></h4>
+          </div>
+          <div class="ovde col-md-2 mx-auto text-center opac">
+            <h4 id="clouds"></h4>
+          </div>
+          <div class="col-md-3">
+
+          </div>
+        </div>
+        <!-- kraj drugog reda -->
+
+    </div>
+
+
+
+  <script src="js/fajl.js">
+
+
+  </script>
+  </body>
+</html>
